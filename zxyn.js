@@ -190,7 +190,7 @@ _sewa.expiredCheck(zxyn, sewa)
 	    let setting = global.db.data.settings[botNumber]
 	    if (new Date() * 1 - setting.status > 1000) {
 		let uptime = await runtime(process.uptime())
-		await zxyn.setStatus(`${'©ArullOfc'} | Runtime : ${runtime(uptime)}`)
+		await zxyn.setStatus(`${'©Ademods'} | Runtime : ${runtime(uptime)}`)
 		setting.status = new Date() * 1
 	    }
 	}
@@ -595,28 +595,28 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
 	    
             case 'sc': {
-                anu = `*Base Ori : Dika Ardnt*
-https://github.com/DikaArdnt
+                anu = `*Base Ori : Ademods*
+https://github.com/Ademods
 
-*Recode By : ArullOfc*
-https://youtu.be/9OvUdX8Xuv0`
+*Recode By : Ademods*
+https://youtu.be/9OvUdX`
 let btn = [{
                                 urlButton: {
                                     displayText: 'Source Code',
-                                    url: 'https://youtu.be/9OvUdX8Xuv0'
+                                    url: 'https://youtu.be/9OvUdX'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
                         if (setbot.templateImage) {
-                        zxyn.send5ButImg(m.chat, anu, '©ArullOfc', global.thumb, btn, global.thumb)
+                        zxyn.send5ButImg(m.chat, anu, '©Ademods', global.thumb, btn, global.thumb)
                         } else if (setbot.templateGif) {
-                        zxyn.send5ButGif(m.chat, anu, '©ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButGif(m.chat, anu, '©Ademods', global.visoka, btn, global.thumb)
                         } else if (setbot.templateVid) {
-                        zxyn.send5ButVid(m.chat, anu, '©ArullOfc', global.visoka, btn, global.thumb)
+                        zxyn.send5ButVid(m.chat, anu, '©Ademods', global.visoka, btn, global.thumb)
                         } else if (setbot.templateMsg) {
-                        zxyn.send5ButMsg(m.chat, anu, '©ArullOfc', btn)
+                        zxyn.send5ButMsg(m.chat, anu, '©Ademods', btn)
                         } else if (setbot.templateLocation) {
-                        zxyn.send5ButLoc(m.chat, anu, '©ArullOfc', global.thumb, btn)
+                        zxyn.send5ButLoc(m.chat, anu, '©Ademods', global.thumb, btn)
                         }
                      }
             break
@@ -777,7 +777,7 @@ let btn = [{
             let buttons = [
                         { buttonId: 'jodohku', buttonText: { displayText: 'Jodohku' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, jawab, '© ArullOfc', m, {mentions: ments})
+                    await zxyn.sendButtonText(m.chat, buttons, jawab, '©Ademods', m, {mentions: ments})
             }
             break
             case 'jadian': {
@@ -792,7 +792,7 @@ let btn = [{
             let buttons = [
                         { buttonId: 'jadian', buttonText: { displayText: 'Jodohku' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, jawab, '© ArullOfc', m, {mentions: menst})
+                    await zxyn.sendButtonText(m.chat, buttons, jawab, '©Ademods', m, {mentions: menst})
             }
             break
             case 'react': {
@@ -985,7 +985,7 @@ let buttonsVote = [
 
             let buttonMessageVote = {
                 text: teks_vote,
-                footer: '© ArullOfc',
+                footer: '©Ademods',
                 buttons: buttonsVote,
                 headerType: 1
             }
@@ -1026,7 +1026,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
             let buttonMessageUpvote = {
                 text: teks_vote,
-                footer: '© ZxynOfc',
+                footer: '©Ademods',
                 buttons: buttonsUpvote,
                 headerType: 1,
                 mentions: menvote
@@ -1068,7 +1068,7 @@ ${vote[m.chat][2].map((v, i) => `├ ${i + 1}. @${v.split`@`[0]}`).join('\n')}
 
             let buttonMessageDevote = {
                 text: teks_vote,
-                footer: '© ArullOfc',
+                footer: '©Ademods',
                 buttons: buttonsDevote,
                 headerType: 1,
                 mentions: menvote
@@ -1125,7 +1125,7 @@ break
                         { buttonId: 'group open', buttonText: { displayText: 'Open' }, type: 1 },
                         { buttonId: 'group close', buttonText: { displayText: 'Close' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, `Mode Group`, '© ArullOfc', m)
+                    await zxyn.sendButtonText(m.chat, buttons, `Mode Group`, '©Ademods', m)
 
              }
             }
@@ -1143,7 +1143,7 @@ break
                         { buttonId: 'editinfo open', buttonText: { displayText: 'Open' }, type: 1 },
                         { buttonId: 'editinfo close', buttonText: { displayText: 'Close' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, `Mode Edit Info`, '© ArullOfc', m)
+                    await zxyn.sendButtonText(m.chat, buttons, `Mode Edit Info`, '©Ademods', m)
 
             }
             }
@@ -1165,7 +1165,7 @@ break
                         { buttonId: 'antilink on', buttonText: { displayText: 'On' }, type: 1 },
                         { buttonId: 'antilink off', buttonText: { displayText: 'Off' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, `Mode Antilink`, '© ArullOfc', m)
+                    await zxyn.sendButtonText(m.chat, buttons, `Mode Antilink`, '©Ademods', m)
                 }
              }
              break
@@ -1176,17 +1176,17 @@ break
                 if (args[0] === "on") {
                 if (db.data.chats[m.chat].mute) return m.reply(`Sudah Aktif Sebelumnya`)
                 db.data.chats[m.chat].mute = true
-                m.reply(`${'© ZxynOfc'} telah di mute di group ini !`)
+                m.reply(`${'©Ademods'} telah di mute di group ini !`)
                 } else if (args[0] === "off") {
                 if (!db.data.chats[m.chat].mute) return m.reply(`Sudah Tidak Aktif Sebelumnya`)
                 db.data.chats[m.chat].mute = false
-                m.reply(`${'© ZxynOfc'} telah di unmute di group ini !`)
+                m.reply(`${'©Ademods'} telah di unmute di group ini !`)
                 } else {
                  let buttons = [
                         { buttonId: 'mute on', buttonText: { displayText: 'On' }, type: 1 },
                         { buttonId: 'mute off', buttonText: { displayText: 'Off' }, type: 1 }
                     ]
-                    await zxyn.sendButtonText(m.chat, buttons, `Mute Bot`, '© ZxynOfc', m)
+                    await zxyn.sendButtonText(m.chat, buttons, `Mute Bot`, '©Ademods', m)
                 }
              }
              break
@@ -1221,7 +1221,7 @@ break
                 ]
                 },
                 ]
-                zxyn.sendListMsg(m.chat, `Please select the following Ephemeral Options List !`, '© ZxynOfc', `Hello Admin ${groupMetadata.subject}`, `Click Here`, sections, m)
+                zxyn.sendListMsg(m.chat, `Please select the following Ephemeral Options List !`, '©Ademods', `Hello Admin ${groupMetadata.subject}`, `Click Here`, sections, m)
                 }
             }
             break
@@ -1244,12 +1244,12 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -1268,7 +1268,7 @@ break
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
-                      zxyn.send5ButImg(i, txt, '© ZxynOfc', global.thumb, btn)
+                      zxyn.send5ButImg(i, txt, '©Ademods', global.thumb, btn)
                     }
                 m.reply(`Sukses Mengirim Broadcast Ke ${anu.length} Group`)
             }
@@ -1283,12 +1283,12 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -1307,7 +1307,7 @@ break
                                 }
                             }]
                       let txt = `「 Broadcast Bot 」\n\n${text}`
-                      zxyn.send5ButImg(yoi, txt, '© ArullOfc', global.thumb, btn)
+                      zxyn.send5ButImg(yoi, txt, '©Ademods', global.thumb, btn)
 		}
 		m.reply('Sukses Broadcast')
             }
@@ -1605,7 +1605,7 @@ break
                     caption: `*-------「 GIMAGE SEARCH 」-------*
 🤠 *Query* : ${text}
 🔗 *Media Url* : ${images}`,
-                    footer: '© ArullOfc',
+                    footer: '©Ademods',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1716,7 +1716,7 @@ break
                 let buttonMessage = {
                     image: { url: 'https://coffee.alexflipnote.dev/random' },
                     caption: `☕ Random Coffe`,
-                    footer: '© ZxynOfc',
+                    footer: '©Ademods',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1734,7 +1734,7 @@ break
                 let buttonMessage = {
                     image: { url: result.image[0] },
                     caption: `⭔ Title : ${result.title}\n⭔ Category : ${result.type}\n⭔ Detail : ${result.source}\n⭔ Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
-                    footer: '© ArullOfc',
+                    footer: '©Ademods',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -1752,7 +1752,7 @@ break
                 let buttonMessage = {
                     image: { url: result.image },
                     caption: `⭔ Title : ${result.title}\n⭔ Source : ${result.source}\n⭔ Media Url : ${result.image}`,
-                    footer: '© ArullOfc',
+                    footer: '©Ademods',
                     buttons: buttons,
                     headerType: 4
                 }
@@ -2899,7 +2899,7 @@ anu = `╭──「 *SEWABOT* 」
 ├  DAN RATUSAN FITUR LAINYA
 ╰────
 ╭─[ *MINAT CHAT* ]
-├  🪀 wa.me/6285822347348?text=SEWABOT
+├  🪀 wa.me/628980330708?text=SEWABOT
 ╰────
 ╭─[ *PAYMENT* ]
 ├  DANA
@@ -2943,7 +2943,7 @@ case 'dana': {
             }
             break
 case 'pulsa': {
-m.reply('085822347348')
+m.reply('08980330708')
 }
 break
 // Button List
@@ -2953,7 +2953,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     title: `${ucapanWaktu} ${pushname}\n\nJika Kamu Menemukan Kesalahan Jangan Nanya Ke Owner, Mungkin Itu gara² Lu Sendiri\n`,
                     description: "*Klik Tombol Dibawah Untuk Melihat Menu Yang Tersedia👇*",
                     buttonText: "KLIK DISINI",
-                    footerText: "ArullOfc",
+                    footerText: "Ademods",
                     listType: "SINGLE_SELECT",
                     sections: [{
 								"title": "All Menu Bot",
@@ -3384,12 +3384,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtu.be/9OvUdX8Xuv0'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3461,12 +3461,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3547,12 +3547,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3620,12 +3620,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3700,12 +3700,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3775,12 +3775,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3853,12 +3853,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -3949,12 +3949,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4026,12 +4026,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4100,12 +4100,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4179,12 +4179,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4274,12 +4274,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4357,12 +4357,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4432,12 +4432,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4505,12 +4505,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4574,12 +4574,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4644,12 +4644,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4720,12 +4720,12 @@ anu = `${ucapanWaktu} ${pushname}
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4763,12 +4763,12 @@ let btn = [{
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtu.be/9OvUdX8Xuv0'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -4803,20 +4803,20 @@ let btn = [{
 
 case 'donasi': {
 anu = `╭─❏ *『 DONASI 』*
-│ ➪ Dana : 085822347348
-│ ➪ Pulsa : 085822347348,083843192208
+│ ➪ Dana : 08980330708
+│ ➪ Pulsa : 08980330708
 ╰───────────────❏
 
 *TERIMA KASIH BUAT YANG SUDAH MAU DONASI🤗*`
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: '085822347348'
+                                    url: '08980330708'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                             }]
                          let setbot = db.data.settings[botNumber]
@@ -4850,8 +4850,7 @@ Atau Bahkan Terbanned Dari
 Pihak WhatsApp
 
 👦 : Scriptnya Beli Dimana?
-🤖 : Script Ini Tidak Di
-Perjualbelikan!
+🤖 : Script Ini Di Jual!
 
 👦 : Boleh Masukin Ke Grup Saia
 Tidak?
@@ -4892,12 +4891,12 @@ Ini`
 let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                                 }, {
                                 quickReplyButton: {
@@ -4933,23 +4932,18 @@ let btn = [{
 case 'contributor': {
 	anu = `*THANKS TO :*
 
-•Adiwajshing 
-•Dika Ardnt 
-•Fandy 
-•Abuzz 
-•Sonel 
-•ArullOfc
+•Ademods
 Penyedia Rest Api :
 https://zenzapis.xyz`
 	let btn = [{
                                 urlButton: {
                                     displayText: 'Youtube📽️',
-                                    url: 'https://youtube.com/channel/UC31AobZtVn1WxyM8h9gWC-w'
+                                    url: 'https://youtube.com/channel/UCXKXLAAEYD2BRsaBoIZBlNA'
                                 }
                                 }, {
                                 urlButton: {
                                     displayText: 'Group Bot🔗',
-                                    url: 'https://chat.whatsapp.com/F6CAAOhrORm1sPdq6cRKAS'
+                                    url: 'https://chat.whatsapp.com/H984ganTo0n6IuBlpMMEbh'
                                 }
                                 }, {
                                 quickReplyButton: {
